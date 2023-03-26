@@ -14,7 +14,7 @@ namespace ChapterFS11.Contexts
             if (!optionsBuilder.IsConfigured)
             {
                 // cada provedor tem sua sintaxe para especificação
-                //optionsBuilder.UseSqlServer("Data Source = DESKTOP-3PMVSMI\\SQLEXPRESS; initial catalog = Chapter; user id = sa; password = 123");
+                //optionsBuilder.UseSqlServer("Data Source = DESKTOP-CEQEJDN\\SQLEXPRESS; initial catalog = Chapter; user id = sa; password = 123");
                 optionsBuilder.UseSqlServer("Data Source = DESKTOP-CEQEJDN\\SQLEXPRESS; initial catalog = Chapter; Integrated Security = true; TrustServerCertificate=True");
                 //optionsBuilder.UseSqlServer("Data Source = DESKTOP-CEQEJDN\\SQLEXPRESS; initial catalog = Chapter; Integrated Security = true");
             }
